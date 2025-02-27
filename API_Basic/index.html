@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <!-- css 연결 -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="contents.css">
+    <link rel="stylesheet" href="modal.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API 데이터 선택</title>
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="headerWrap">
+            <header>
+                <h4>전남지역 관광지 찾기</h4>
+            </header>
+        </div>
+        <section>
+            <!-- 검색란 -->
+            <div class="search_filter">
+                <table class="table_type1">
+                    <tbody>
+                        <tr>
+                            <th scope="row">언어</th>
+                            <td class="filter-wrap" id="filter1">
+                                <p class="filter-text"> </p>
+                                <button type="button"  data-target="popup1" class="btn-type2 btn-blue floatright">언어 선택</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">관광타입</th>
+                            <td class="filter-wrap"id="filter2">
+                                <p class="filter-text"> </p>
+                                <button type="button"  data-target="popup2" class="btn-type2 btn-blue floatright">관광타입 선택</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">서비스분류</th>
+                            <td class="filter-wrap"id="filter3">
+                                <p class="filter-text"> </p>
+                                <button type="button"  data-target="popup3" class="btn-type2 btn-blue floatright">서비스분류 선택</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">지역</th>
+                            <td class="filter-wrap"id="filter4">
+                                <p class="filter-text"> </p>
+                                <button type="button"  data-target="popup4" class="btn-type2 btn-blue floatright">지역 선택</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <label for="title">검색어</label>
+                            </th>
+                            <td>
+                                <input type="text" class="search-type1" name="title" id="title" value=""
+                                    style="width: 700px;">
+                                <button id="search-btn" type="submit" class="btn-type2 btn-blue ml5">검색</button>
+                                <button type="button" class="btn-type2 ml5 btn-iconback reset">선택 초기화</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="table-amount clearfix mt55">
+                <!-- 총 데이터 수 표시 -->
+                <p class="floatleft">총 데이터 수 <span id = "total-count" class="ft-blue">51,224</span>개</p>
+
+                <!-- 전체 체크 링크 -->
+                <a href="#" class="dp-none" name="checkAll" title="선택해제됨">전체 체크</a>
+
+                <div class="option-wrap clearfix">
+                    <!-- 정렬 방식 선택 -->
+                    <div class="select-wrap sort-wrap">
+                        <select id="arrange" class="select-type1 sort" title="검색항목 선택">
+                            <option value="C">최신순</option>
+                            <option value="A" selected>제목순</option>
+                        </select>
+                        <button type="button" class="btn btn-type2" name="arrange">보기</button>
+                    </div>
+                    <!-- 한번에 불러올 게시물 수 선택 itemCount-->
+                    <div class="select-wrap sort-wrap">
+                        <select id="itemCount" class="select-type1 sort" title="한 화면 게시물 수 선택">
+                            <option value="20">20개씩 보기</option>
+                            <option value="30" selected>30개씩 보기</option>
+                            <option value="40">40개씩 보기</option>
+                            <option value="50">50개씩 보기</option>
+                        </select>
+                        <button type="button" class="btn btn-type2" name="searchCnt">보기</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- /결과표출 -->
+            <div class="view-gallery-wrap">
+                <ul class="gallery-list">
+                  
+                </ul>
+            </div>
+
+            <div class="paging">
+                <!-- 첫번째 페이지로 가기 버튼 -->
+                <button type="button" class="table-prev" name="first">첫번째 페이지로 가기</button>
+
+                <!-- 이전 페이지로 가기 버튼 -->
+                <button type="button" class="table-back" name="prev">이전 페이지로 가기</button>
+
+                <!-- 페이지 번호 버튼들 -->
+                <button type="button" class="paging button on" title="선택됨" value="1">1</button>
+                <button type="button" class="paging button" title="" value="2">2</button>
+                <button type="button" class="paging button" title="" value="3">3</button>
+                <button type="button" class="paging button" title="" value="4">4</button>
+                <button type="button" class="paging button" title="" value="5">5</button>
+                <button type="button" class="paging button" title="" value="6">6</button>
+                <button type="button" class="paging button" title="" value="7">7</button>
+                <button type="button" class="paging button" title="" value="8">8</button>
+                <button type="button" class="paging button" title="" value="9">9</button>
+                <button type="button" class="paging button" title="" value="10">10</button>
+
+                <!-- 다음 페이지로 가기 버튼 -->
+                <button type="button" class="table-forward" name="next">다음 페이지로 가기</button>
+
+                <!-- 마지막 페이지로 가기 버튼 -->
+                <button type="button" class="table-next" name="last">마지막 페이지로 가기</button>
+            </div>
+
+
+            <!-- 팝업창 -->
+            <div class="modal" id="popup1" style="width: 200px;" tabindex="0">
+                <!-- 닫기 버튼 -->
+                <button type="button" class="btn-close modal-close">닫기</button>
+
+                <div class="modal-wrap">
+                    <!-- 모달 헤드 -->
+                    <div class="modal-head">
+                        <strong class="title">언어 선택</strong>
+                    </div>
+
+                    <!-- 모달 본문 -->
+                    <div class="modal-body">
+                        <ul class="box-wrap">
+                            <li id = "culture"  class="box one-box">
+                                    
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- 모달 푸터 -->
+                    <div class="modal-foot">
+                        <a href="#" class="btn btn-type2">취소</a>
+                        <a href="#" class="btn btn-type2 btn-check btn-blue ml10">확인</a>
+                    </div>
+                </div>
+            </div>
+            <div class="modal " id="popup2" style="width: 200px;" tabindex="0">
+                <!-- 닫기 버튼 -->
+                <button type="button" class="btn-close modal-close">닫기</button>
+
+                <div class="modal-wrap">
+                    <!-- 모달 헤드 -->
+                    <div class="modal-head">
+                        <strong class="title">관광타입 선택</strong>
+                    </div>
+
+                    <!-- 모달 본문 -->
+                    <div class="modal-body">
+                        <ul class="box-wrap">
+                            <li id="contentType" class="box one-box">
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- 모달 푸터 -->
+                    <div class="modal-foot">
+                        <a href="#" class="btn btn-type2">취소</a>
+                        <a href="#" class="btn btn-type2 btn-check btn-blue ml10">확인</a>
+                    </div>
+                </div>
+            </div>
+            <div class="modal type-modal " id="popup3" tabindex="0">
+                <button type="button" class="btn-close modal-close">닫기</button>
+                <div class="modal-wrap">
+                    <div class="modal-head">
+                        <strong class="title">서비스 분류 선택</strong>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <li class="box">
+                                <p class="cate-title">대분류</p>
+                                <div id="categoryCode1" class="btn-list">
+                                </div>
+                            </li>
+                            <li class="box">
+                                <p class="cate-title">중분류</p>
+                                <div id="categoryCode2" class="btn-list"></div>
+                            </li>
+                            <li class="box big-box">
+                                <p class="cate-title">소분류</p>
+                                <div id="categoryCode3" class="btn-list">
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="modal-foot">
+                        <a href="#" class="btn btn-type2">취소</a>
+                        <a href="#" class="btn-check btn btn-type2 btn-blue ml10">확인</a>
+                    </div>
+                </div>
+            </div>
+            <div class="modal type-modal" id="popup4" tabindex="0">
+                <!-- 닫기 버튼 -->
+                <button type="button" class="btn-close modal-close">닫기</button>
+
+                <div class="modal-wrap">
+                    <!-- 모달 헤드 -->
+                    <div class="modal-head">
+                        <strong class="title">지역 선택</strong>
+                    </div>
+
+                    <!-- 모달 본문 -->
+                    <div class="modal-body">
+                        <ul class="box-wrap">
+                            <li id="sigungu" class="box list-flex btn-list2 ">
+                                
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- 모달 푸터 -->
+                    <div class="modal-foot">
+                        <a href="#" class="btn btn-type2">취소</a>
+                        <a href="#" class="btn-check btn btn-type2 btn-blue ml10">확인</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <!-- js 연결 -->
+    <script src="apidata.js"></script>
+    <script src="modalHandler.js"></script>
+    
+    <script src="paging.js"></script>
+    <script src="api.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
