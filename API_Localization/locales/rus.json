@@ -1,0 +1,188 @@
+{
+    "title": "Выбор данных API",
+    "header": "Поиск туристических достопримечательностей в Чолла-Намдо",
+  
+    "search_filters": {
+      "language": "Язык",
+      "tourism_type": "Тип туризма",
+      "service_category": "Категория услуги",
+      "region": "Регион",
+      "search_keyword": "Ключевое слово"
+    },
+  
+    "contentType": {
+      "All": "",
+      "Tourist Attractions": "76",
+      "Cultural Facilities": "78",
+      "Festivals/Performances/Events": "85",
+      "Leisure Activities": "75",
+      "Lodging": "80",
+      "Shopping": "79",
+      "Restaurants": "82",
+      "Transportation": "77"
+    },
+  
+    "buttons": {
+      "select_language": "Выбрать язык",
+      "select_tourism_type": "Выбрать тип туризма",
+      "select_service_category": "Выбрать категорию услуги",
+      "select_region": "Выбрать регион",
+      "search": "Поиск",
+      "reset": "Сбросить выбор",
+      "view": "Просмотр",
+      "cancel": "Отмена",
+      "confirm": "Подтвердить",
+      "close": "Закрыть"
+    },
+  
+    "total_data_count": "Общее количество данных: ",
+  
+    "sort_options": {
+      "latest": "Самые новые",
+      "title": "Сортировать по названию",
+      "items_20": "Показать 20 элементов",
+      "items_30": "Показать 30 элементов",
+      "items_40": "Показать 40 элементов",
+      "items_50": "Показать 50 элементов"
+    },
+  
+    "pagination": {
+      "first_page": "Первая страница",
+      "previous_page": "Предыдущая страница",
+      "next_page": "Следующая страница",
+      "last_page": "Последняя страница"
+    },
+  
+    "modals": {
+      "language_selection": "Выбор языка",
+      "tourism_type_selection": "Выбор типа туризма",
+      "service_category_selection": "Выбор категории услуги",
+      "region_selection": "Выбор региона",
+      "main": "Основная категория",
+      "middle": "Средняя категория",
+      "sub": "Подкатегория"
+    },
+  
+    "details": {
+      "basic_info": "Основная информация",
+      "usage_guide": "Руководство по использованию",
+      "detailed_info": "Подробная информация",
+      "pet_info": "Информация о домашних животных",
+      "list": "Список",
+      "overview": "Обзор",
+      "homepage": "Сайт",
+      "telname": "Контактное лицо",
+      "tel": "Телефон",
+      "zipcode": "Почтовый индекс",
+      "addr1": "Адрес",
+      "main_image": "Главное изображение",
+      "loading": "Загрузка..."
+    },
+  
+    "76": {
+      "infocenter": "Информационный центр",
+      "useseason": "Сезон использования",
+      "opendate": "Дата открытия",
+      "restdate": "Выходные дни",
+      "usetime": "Часы работы",
+      "parking": "Парковка",
+      "accomcount": "Вместимость",
+      "chkbabycarriage": "Доступность детских колясок",
+      "chkcreditcard": "Прием кредитных карт",
+      "chkpet": "Информация о домашних животных",
+      "expagerange": "Возрастной диапазон для посещения",
+      "expguide": "Руководство по экскурсиям",
+      "heritage1": "Объект всемирного культурного наследия",
+      "heritage2": "Объект всемирного природного наследия",
+      "heritage3": "Объект всемирного документального наследия"
+    },
+  
+    "78": {
+      "infocenterculture": "Информационный центр",
+      "scale": "Масштаб",
+      "restdateculture": "Выходные дни",
+      "usetimeculture": "Часы работы",
+      "usefee": "Стоимость посещения",
+      "parkingculture": "Парковка",
+      "parkingfee": "Плата за парковку",
+      "spendtime": "Продолжительность посещения",
+      "accomcountculture": "Вместимость",
+      "chkbabycarriageculture": "Доступность детских колясок",
+      "chkcreditcardculture": "Прием кредитных карт",
+      "chkpetculture": "Информация о домашних животных",
+      "discountinfo": "Информация о скидках"
+    },
+  
+    "85": {
+      "sponsor1": "Спонсор",
+      "sponsor1tel": "Контакт спонсора",
+      "sponsor2": "Со-спонсор",
+      "sponsor2tel": "Контакт со-спонсора",
+      "eventstartdate": "Дата начала",
+      "eventenddate": "Дата окончания",
+      "playtime": "Время проведения",
+      "eventplace": "Место проведения",
+      "usetimefestival": "Стоимость посещения",
+      "agelimit": "Возрастное ограничение",
+      "bookingplace": "Место бронирования",
+      "discountinfofestival": "Информация о скидках",
+      "eventhomepage": "Сайт мероприятия",
+      "festivalgrade": "Категория фестиваля",
+      "placeinfo": "Информация о месте",
+      "program": "Программа",
+      "spendtimefestival": "Продолжительность посещения",
+      "subevent": "Дополнительные мероприятия"
+    },
+  
+    "75": {
+      "infocenterleports": "Информационный центр",
+      "openperiod": "Период работы",
+      "restdateleports": "Выходные дни",
+      "usetimeleports": "Часы работы",
+      "scaleleports": "Масштаб",
+      "expagerangeleports": "Возрастной диапазон",
+      "usefeeleports": "Стоимость посещения",
+      "reservation": "Информация о бронировании",
+      "parkingleports": "Парковка",
+      "parkingfeeleports": "Плата за парковку",
+      "accomcountleports": "Вместимость",
+      "chkbabycarriageleports": "Доступность детских колясок",
+      "chkcreditcardleports": "Прием кредитных карт",
+      "chkpetleports": "Информация о домашних животных"
+    },
+  
+    "80": {
+      "benikia": "Доступность размещения",
+      "infocenterlodging": "Информационный центр",
+      "scalelodging": "Масштаб",
+      "reservationlodging": "Информация о бронировании",
+      "reservationurl": "Сайт бронирования",
+      "checkintime": "Время заезда",
+      "checkouttime": "Время выезда",
+      "chkcooking": "Можно ли готовить в номере",
+      "foodplace": "Место для еды",
+      "goodstay": "Программа Good Stay",
+      "hanok": "Доступность ханока",
+      "accomcountlodging": "Вместимость",
+      "roomtype": "Тип номера",
+      "roomcount": "Количество номеров",
+      "parkinglodging": "Парковка",
+      "pickup": "Трансфер",
+      "subfacility": "Дополнительные удобства",
+      "refundregulation": "Правила возврата"
+    },
+  
+    "79": {
+      "infocentershopping": "Информационный центр",
+      "opendateshopping": "Дата открытия",
+      "fairday": "Дни работы рынка",
+      "opentime": "Часы работы",
+      "restdateshopping": "Выходные дни",
+      "parkingshopping": "Парковка",
+      "restroom": "Туалеты",
+      "saleitem": "Товары в продаже",
+      "shopguide": "Гид по магазинам",
+      "chkcreditcardshopping": "Прием кредитных карт"
+    }
+  }
+  

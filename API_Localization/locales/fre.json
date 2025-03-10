@@ -1,0 +1,188 @@
+{
+    "title": "Sélection des données API",
+    "header": "Rechercher des attractions touristiques à Jeonnam",
+  
+    "search_filters": {
+      "language": "Langue",
+      "tourism_type": "Type de tourisme",
+      "service_category": "Catégorie de service",
+      "region": "Région",
+      "search_keyword": "Mot-clé"
+    },
+  
+    "contentType": {
+      "All": "",
+      "Tourist Attractions": "76",
+      "Cultural Facilities": "78",
+      "Festivals/Performances/Events": "85",
+      "Leisure Activities": "75",
+      "Lodging": "80",
+      "Shopping": "79",
+      "Restaurants": "82",
+      "Transportation": "77"
+    },
+  
+    "buttons": {
+      "select_language": "Sélectionner une langue",
+      "select_tourism_type": "Sélectionner un type de tourisme",
+      "select_service_category": "Sélectionner une catégorie de service",
+      "select_region": "Sélectionner une région",
+      "search": "Rechercher",
+      "reset": "Réinitialiser la sélection",
+      "view": "Voir",
+      "cancel": "Annuler",
+      "confirm": "Confirmer",
+      "close": "Fermer"
+    },
+  
+    "total_data_count": "Nombre total de données : ",
+  
+    "sort_options": {
+      "latest": "Les plus récents",
+      "title": "Trier par titre",
+      "items_20": "Afficher 20 éléments",
+      "items_30": "Afficher 30 éléments",
+      "items_40": "Afficher 40 éléments",
+      "items_50": "Afficher 50 éléments"
+    },
+  
+    "pagination": {
+      "first_page": "Première page",
+      "previous_page": "Page précédente",
+      "next_page": "Page suivante",
+      "last_page": "Dernière page"
+    },
+  
+    "modals": {
+      "language_selection": "Sélection de la langue",
+      "tourism_type_selection": "Sélection du type de tourisme",
+      "service_category_selection": "Sélection de la catégorie de service",
+      "region_selection": "Sélection de la région",
+      "main": "Catégorie principale",
+      "middle": "Catégorie intermédiaire",
+      "sub": "Sous-catégorie"
+    },
+  
+    "details": {
+      "basic_info": "Informations de base",
+      "usage_guide": "Guide d'utilisation",
+      "detailed_info": "Informations détaillées",
+      "pet_info": "Informations sur les animaux de compagnie",
+      "list": "Liste",
+      "overview": "Aperçu",
+      "homepage": "URL du site Web",
+      "telname": "Nom du contact",
+      "tel": "Numéro de téléphone",
+      "zipcode": "Code postal",
+      "addr1": "Adresse",
+      "main_image": "Image principale",
+      "loading": "Chargement..."
+    },
+  
+    "76": {
+      "infocenter": "Centre d'information",
+      "useseason": "Saison d'utilisation",
+      "opendate": "Date d'ouverture",
+      "restdate": "Jours de repos",
+      "usetime": "Heures d'ouverture",
+      "parking": "Parking",
+      "accomcount": "Capacité d'hébergement",
+      "chkbabycarriage": "Disponibilité des poussettes",
+      "chkcreditcard": "Acceptation des cartes de crédit",
+      "chkpet": "Informations sur les animaux de compagnie",
+      "expagerange": "Tranche d'âge pour les expériences",
+      "expguide": "Guide des expériences",
+      "heritage1": "Patrimoine culturel mondial",
+      "heritage2": "Patrimoine naturel mondial",
+      "heritage3": "Patrimoine documentaire mondial"
+    },
+  
+    "78": {
+      "infocenterculture": "Centre d'information",
+      "scale": "Échelle",
+      "restdateculture": "Jours de repos",
+      "usetimeculture": "Heures d'ouverture",
+      "usefee": "Tarif d'entrée",
+      "parkingculture": "Parking",
+      "parkingfee": "Frais de stationnement",
+      "spendtime": "Durée de la visite",
+      "accomcountculture": "Capacité d'hébergement",
+      "chkbabycarriageculture": "Disponibilité des poussettes",
+      "chkcreditcardculture": "Acceptation des cartes de crédit",
+      "chkpetculture": "Informations sur les animaux de compagnie",
+      "discountinfo": "Informations sur les réductions"
+    },
+  
+    "85": {
+      "sponsor1": "Sponsor",
+      "sponsor1tel": "Contact du sponsor",
+      "sponsor2": "Co-sponsor",
+      "sponsor2tel": "Contact du co-sponsor",
+      "eventstartdate": "Date de début",
+      "eventenddate": "Date de fin",
+      "playtime": "Horaires de l'événement",
+      "eventplace": "Lieu de l'événement",
+      "usetimefestival": "Tarif d'entrée",
+      "agelimit": "Limite d'âge",
+      "bookingplace": "Lieu de réservation",
+      "discountinfofestival": "Informations sur les réductions",
+      "eventhomepage": "Site Web de l'événement",
+      "festivalgrade": "Classement du festival",
+      "placeinfo": "Informations sur le lieu",
+      "program": "Programme",
+      "spendtimefestival": "Durée de la visite",
+      "subevent": "Événements secondaires"
+    },
+  
+    "75": {
+      "infocenterleports": "Centre d'information",
+      "openperiod": "Période d'ouverture",
+      "restdateleports": "Jours de repos",
+      "usetimeleports": "Heures d'ouverture",
+      "scaleleports": "Échelle",
+      "expagerangeleports": "Tranche d'âge pour les expériences",
+      "usefeeleports": "Tarif d'entrée",
+      "reservation": "Informations sur la réservation",
+      "parkingleports": "Parking",
+      "parkingfeeleports": "Frais de stationnement",
+      "accomcountleports": "Capacité d'hébergement",
+      "chkbabycarriageleports": "Disponibilité des poussettes",
+      "chkcreditcardleports": "Acceptation des cartes de crédit",
+      "chkpetleports": "Informations sur les animaux de compagnie"
+    },
+  
+    "80": {
+      "benikia": "Disponibilité d'hébergement",
+      "infocenterlodging": "Centre d'information",
+      "scalelodging": "Échelle",
+      "reservationlodging": "Informations sur la réservation",
+      "reservationurl": "Site Web de réservation",
+      "checkintime": "Heure d'arrivée",
+      "checkouttime": "Heure de départ",
+      "chkcooking": "Cuisine autorisée dans la chambre",
+      "foodplace": "Espace repas",
+      "goodstay": "Programme Good Stay",
+      "hanok": "Disponibilité de Hanok",
+      "accomcountlodging": "Capacité d'hébergement",
+      "roomtype": "Type de chambre",
+      "roomcount": "Nombre de chambres",
+      "parkinglodging": "Parking",
+      "pickup": "Service de navette",
+      "subfacility": "Installations supplémentaires",
+      "refundregulation": "Politique de remboursement"
+    },
+  
+    "79": {
+      "infocentershopping": "Centre d'information",
+      "opendateshopping": "Date d'ouverture",
+      "fairday": "Jours de marché",
+      "opentime": "Heures d'ouverture",
+      "restdateshopping": "Jours de repos",
+      "parkingshopping": "Parking",
+      "restroom": "Toilettes",
+      "saleitem": "Articles en vente",
+      "shopguide": "Guide des magasins",
+      "chkcreditcardshopping": "Acceptation des cartes de crédit"
+    }
+  }
+  

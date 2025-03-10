@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상세 페이지</title>
+    <link rel="stylesheet" href="../css/detail.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="container">
+            <!-- 썸네일 3개 표시 및 변경되는 이미지 슬라이더  -->
+            <div class="image-slider">
+                <img id="main-image" src="" alt="Main Image">
+            
+                <div class="thumbnail-wrapper">
+                    <button class="prev">◀</button>
+                    <div class="thumbnails"></div>
+                    <button class="next">▶</button>
+                </div>
+            
+                <div class="dots"></div>
+            </div>
+            
+            <!-- 대표이미지만 변경되는 이미지 슬라이더  -->
+            <!-- <div class="image-slider">
+                <button class="prev">&#10094;</button>
+                <img id="main-image" src="" alt="이미지 로딩 중...">
+                <button class="next">&#10095;</button>
+                <div class="dots" id="dots"></div>
+            </div> -->
+
+            <!-- 정보 영역 -->
+            <div class="info">
+                <h2 id="title">이름 로딩 중...</h2>
+                <div class="tabs">
+                    <ul>
+                        <li>
+                            <button class="tab-button active" onclick="openTab('basic')" data-key = "details.basic_info">기본정보</button><!-- 공통정보 조회 (기본정보) -->
+                        </li>
+                        <li>
+                            <button class="tab-button" onclick="openTab('guide')" data-key = "details.usage_guide">이용안내</button> <!-- (이용안내) -->
+                        </li>
+                        <li>
+                            <button id = "repeat-button" class="tab-button" onclick="openTab('repeat')" data-key = "details.detailed_info">상세정보</button><!--(반복정보)-->
+                        </li>
+                        <li>
+                            <button id = "pet-button" class="tab-button" onclick="openTab('pet')" data-key = "details.pet_info">반려동물정보</button><!-- (반려동물정보) -->
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="basic" class="tab-content active">
+                    <table class="table-type1" id="table1" tabindex="-1">
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="guide" class="tab-content">
+                    <table class="table-type1" id="table1" tabindex="-1">
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="repeat" class="tab-content">
+                    <table class="table-type1" id="table1" tabindex="-1">
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="pet" class="tab-content">
+                    <table class="table-type1" id="table1" tabindex="-1">
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <button class="back-button" data-key = "details.list">목록</button>
+            </div>
+        </div>
+        <div>
+            <h3 data-key = "details.overview">개요</h3>
+            <p data-key = "details.loading" id="description">로딩 중...</p>
+        </div>
+    </div>
+
+    <script src="../scripts/apidata.js"></script>
+    <script src="../scripts/detail.js"></script>
+</body>
+
+</html>

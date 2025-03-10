@@ -1,0 +1,130 @@
+{
+    "title": "APIデータ選択",
+    "header": "全羅南道の観光名所を探す",
+  
+    "search_filters": {
+      "language": "言語",
+      "tourism_type": "観光タイプ",
+      "service_category": "サービスカテゴリー",
+      "region": "地域",
+      "search_keyword": "検索キーワード"
+    },
+  
+    "contentType": {
+      "All": "",
+      "Tourist Attractions": "76",
+      "Cultural Facilities": "78",
+      "Festivals/Performances/Events": "85",
+      "Leisure Activities": "75",
+      "Lodging": "80",
+      "Shopping": "79",
+      "Restaurants": "82",
+      "Transportation": "77"
+    },
+    "buttons": {
+      "select_language": "言語を選択",
+      "select_tourism_type": "観光タイプを選択",
+      "select_service_category": "サービスカテゴリーを選択",
+      "select_region": "地域を選択",
+      "search": "検索",
+      "reset": "選択をリセット",
+      "view": "表示",
+      "cancel": "キャンセル",
+      "confirm": "確認",
+      "close": "閉じる"
+    },
+    "total_data_count": "総データ数: ",
+    "sort_options": {
+      "latest": "最新順",
+      "title": "タイトル順",
+      "items_20": "20件表示",
+      "items_30": "30件表示",
+      "items_40": "40件表示",
+      "items_50": "50件表示"
+    },
+    "pagination": {
+      "first_page": "最初のページへ",
+      "previous_page": "前のページへ",
+      "next_page": "次のページへ",
+      "last_page": "最後のページへ"
+    },
+    "modals": {
+      "language_selection": "言語を選択",
+      "tourism_type_selection": "観光タイプを選択",
+      "service_category_selection": "サービスカテゴリーを選択",
+      "region_selection": "地域を選択",
+      "main": "メインカテゴリー",
+      "middle": "中カテゴリー",
+      "sub": "サブカテゴリー"
+    },
+    "details":{
+      "basic_info": "基本情報",
+      "usage_guide": "利用ガイド",
+      "detailed_info": "詳細情報",
+      "pet_info": "ペット情報",
+      "list": "リスト",
+      "overview": "概要",
+      "homepage": "ホームページURL",
+      "telname": "電話名",
+      "tel": "電話番号",
+      "zipcode": "郵便番号",
+      "addr1": "住所",
+      "main_image": "メイン画像",
+      "loading": "読み込み中..."
+    },
+    
+    "76": {
+      "infocenter": "問い合わせ・案内",
+      "useseason": "利用シーズン",
+      "opendate": "開業日",
+      "restdate": "休業日",
+      "usetime": "営業時間",
+      "parking": "駐車施設",
+      "accomcount": "収容人数",
+      "chkbabycarriage": "ベビーカー貸出情報",
+      "chkcreditcard": "クレジットカード利用情報",
+      "chkpet": "ペット同伴情報",
+      "expagerange": "体験可能年齢",
+      "expguide": "体験ガイド",
+      "heritage1": "世界文化遺産登録状況",
+      "heritage2": "世界自然遺産登録状況",
+      "heritage3": "世界記録遺産登録状況"
+    },
+    "78": {
+      "infocenterculture": "問い合わせ・案内",
+      "scale": "規模",
+      "restdateculture": "休業日",
+      "usetimeculture": "営業時間",
+      "usefee": "利用料金",
+      "parkingculture": "駐車施設",
+      "parkingfee": "駐車料金",
+      "spendtime": "観覧時間",
+      "accomcountculture": "収容人数",
+      "chkbabycarriageculture": "ベビーカー貸出情報",
+      "chkcreditcardculture": "クレジットカード利用情報",
+      "chkpetculture": "ペット同伴情報",
+      "discountinfo": "割引情報"
+    },
+    "85": {
+      "sponsor1": "主催者情報",
+      "sponsor1tel": "主催者連絡先",
+      "sponsor2": "共催者情報",
+      "sponsor2tel": "共催者連絡先",
+      "eventstartdate": "イベント開始日",
+      "eventenddate": "イベント終了日",
+      "playtime": "公演時間",
+      "eventplace": "イベント会場",
+      "usetimefestival": "利用料金",
+      "agelimit": "観覧可能年齢",
+      "bookingplace": "予約場所",
+      "discountinfofestival": "割引情報",
+      "eventhomepage": "イベントホームページ",
+      "festivalgrade": "フェスティバル等級",
+      "placeinfo": "会場位置情報",
+      "program": "イベントプログラム",
+      "spendtimefestival": "観覧時間",
+      "subevent": "サブイベント情報"
+    }
+  }
+  
+  

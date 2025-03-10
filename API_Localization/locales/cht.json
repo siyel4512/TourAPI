@@ -1,0 +1,188 @@
+{
+    "title": "API數據選擇",
+    "header": "全羅南道旅遊景點搜索",
+  
+    "search_filters": {
+      "language": "語言",
+      "tourism_type": "旅遊類型",
+      "service_category": "服務類別",
+      "region": "地區",
+      "search_keyword": "關鍵詞"
+    },
+  
+    "contentType": {
+      "All": "",
+      "Tourist Attractions": "76",
+      "Cultural Facilities": "78",
+      "Festivals/Performances/Events": "85",
+      "Leisure Activities": "75",
+      "Lodging": "80",
+      "Shopping": "79",
+      "Restaurants": "82",
+      "Transportation": "77"
+    },
+  
+    "buttons": {
+      "select_language": "選擇語言",
+      "select_tourism_type": "選擇旅遊類型",
+      "select_service_category": "選擇服務類別",
+      "select_region": "選擇地區",
+      "search": "搜索",
+      "reset": "重置選擇",
+      "view": "查看",
+      "cancel": "取消",
+      "confirm": "確認",
+      "close": "關閉"
+    },
+  
+    "total_data_count": "總數據量: ",
+  
+    "sort_options": {
+      "latest": "最新",
+      "title": "按名稱排序",
+      "items_20": "顯示20項",
+      "items_30": "顯示30項",
+      "items_40": "顯示40項",
+      "items_50": "顯示50項"
+    },
+  
+    "pagination": {
+      "first_page": "第一頁",
+      "previous_page": "上一頁",
+      "next_page": "下一頁",
+      "last_page": "最後一頁"
+    },
+  
+    "modals": {
+      "language_selection": "語言選擇",
+      "tourism_type_selection": "選擇旅遊類型",
+      "service_category_selection": "選擇服務類別",
+      "region_selection": "選擇地區",
+      "main": "主類別",
+      "middle": "中類別",
+      "sub": "子類別"
+    },
+  
+    "details": {
+      "basic_info": "基本信息",
+      "usage_guide": "使用指南",
+      "detailed_info": "詳細信息",
+      "pet_info": "寵物信息",
+      "list": "列表",
+      "overview": "概述",
+      "homepage": "官方網站",
+      "telname": "聯繫人",
+      "tel": "電話",
+      "zipcode": "郵政編碼",
+      "addr1": "地址",
+      "main_image": "主圖片",
+      "loading": "加載中..."
+    },
+  
+    "76": {
+      "infocenter": "信息中心",
+      "useseason": "適用季節",
+      "opendate": "開放日期",
+      "restdate": "休息日",
+      "usetime": "開放時間",
+      "parking": "停車場",
+      "accomcount": "容納人數",
+      "chkbabycarriage": "是否可使用嬰兒車",
+      "chkcreditcard": "是否接受信用卡",
+      "chkpet": "寵物信息",
+      "expagerange": "適合年齡範圍",
+      "expguide": "導遊服務",
+      "heritage1": "世界文化遺產",
+      "heritage2": "世界自然遺產",
+      "heritage3": "世界記憶遺產"
+    },
+  
+    "78": {
+      "infocenterculture": "信息中心",
+      "scale": "規模",
+      "restdateculture": "休息日",
+      "usetimeculture": "開放時間",
+      "usefee": "入場費用",
+      "parkingculture": "停車場",
+      "parkingfee": "停車費",
+      "spendtime": "參觀時間",
+      "accomcountculture": "容納人數",
+      "chkbabycarriageculture": "是否可使用嬰兒車",
+      "chkcreditcardculture": "是否接受信用卡",
+      "chkpetculture": "寵物信息",
+      "discountinfo": "折扣信息"
+    },
+  
+    "85": {
+      "sponsor1": "主辦方",
+      "sponsor1tel": "主辦方聯繫電話",
+      "sponsor2": "協辦方",
+      "sponsor2tel": "協辦方聯繫電話",
+      "eventstartdate": "活動開始日期",
+      "eventenddate": "活動結束日期",
+      "playtime": "活動時間",
+      "eventplace": "活動地點",
+      "usetimefestival": "入場費用",
+      "agelimit": "年齡限制",
+      "bookingplace": "預訂地點",
+      "discountinfofestival": "折扣信息",
+      "eventhomepage": "活動官網",
+      "festivalgrade": "節日級別",
+      "placeinfo": "場地信息",
+      "program": "節目",
+      "spendtimefestival": "活動時長",
+      "subevent": "附加活動"
+    },
+  
+    "75": {
+      "infocenterleports": "信息中心",
+      "openperiod": "開放時段",
+      "restdateleports": "休息日",
+      "usetimeleports": "開放時間",
+      "scaleleports": "規模",
+      "expagerangeleports": "適合年齡",
+      "usefeeleports": "使用費用",
+      "reservation": "預訂信息",
+      "parkingleports": "停車場",
+      "parkingfeeleports": "停車費",
+      "accomcountleports": "容納人數",
+      "chkbabycarriageleports": "是否可使用嬰兒車",
+      "chkcreditcardleports": "是否接受信用卡",
+      "chkpetleports": "寵物信息"
+    },
+  
+    "80": {
+      "benikia": "是否可住宿",
+      "infocenterlodging": "信息中心",
+      "scalelodging": "規模",
+      "reservationlodging": "預訂信息",
+      "reservationurl": "預訂網站",
+      "checkintime": "入住時間",
+      "checkouttime": "退房時間",
+      "chkcooking": "是否可做飯",
+      "foodplace": "餐飲場所",
+      "goodstay": "Good Stay計劃",
+      "hanok": "是否提供韓屋",
+      "accomcountlodging": "容納人數",
+      "roomtype": "房間類型",
+      "roomcount": "房間數量",
+      "parkinglodging": "停車場",
+      "pickup": "接送服務",
+      "subfacility": "附屬設施",
+      "refundregulation": "退款規定"
+    },
+  
+    "79": {
+      "infocentershopping": "信息中心",
+      "opendateshopping": "開業日期",
+      "fairday": "市場營業日",
+      "opentime": "營業時間",
+      "restdateshopping": "休息日",
+      "parkingshopping": "停車場",
+      "restroom": "洗手間",
+      "saleitem": "銷售商品",
+      "shopguide": "購物指南",
+      "chkcreditcardshopping": "是否接受信用卡"
+    }
+  }
+  
