@@ -1,0 +1,331 @@
+
+/* 모달 스타일 */
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    min-width: 300px;
+    max-height: 60%;
+    height: 100%;
+    text-align: center;
+    z-index: 99999
+}
+
+.modal.on {
+    display: block
+}
+
+.modal .btn-close {
+    width: 30px;
+    height: 30px;
+    font-size: 0;
+    position: absolute;
+    top: 14px;
+    right: 10px;
+    border-radius: 100%;
+    background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAALCAYAAABLcGxfAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA9ElEQVQokW3RzSpFURjG8d/ZxZm4AMZ7JUMZOfIxk6mUG1ByHwbnFsicKEmMDIxkYColXo5roHyFbXDW1k5njdbzvP/19PSuVlmWU9jBU0SsGHBSSgdIWC+wgTF0UkqHA+B9zGIUGwU2cZfnnQzU8C7msnzEZquqKimlYZxhPA+P8YW64gMWI+KtVVVVndbGESb/tbrGckS8wt+DRo0e2ll+IEXEdz0v/sFbGGpYw9huMs1Ke1jI/hV+MJ31RUSsQqssyxH9f6jhiIj5HHKOiexfYq1AtwH3sNhosIT7fJ9Bt8ApnnGrv7r3mo6Izxxwgxec/AI/vVAviXw4ggAAAABJRU5ErkJggg==) no-repeat 50%
+}
+
+.modal-wrap {
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #fff
+}
+
+.modal-wrap .modal-head {
+    padding: 15px 10px;
+    box-sizing: border-box;
+    background-color: #5f8cdd
+}
+
+.modal-wrap .modal-head>.title {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500
+}
+
+.modal-wrap .modal-body {
+   padding: 0 30px;
+    min-height: 50px;
+    height: calc(100% - 130px);
+    overflow: auto;
+    box-sizing: border-box
+}
+
+.modal-wrap .modal-body.scroll {
+    overflow-y: scroll
+}
+
+.modal-wrap .modal-body .guide-box {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 20px 0
+}
+
+.modal-wrap .modal-body .guide-box>strong {
+    font-weight: 500;
+    margin-right: 10px;
+    font-size: 17px
+}
+
+.modal-wrap .modal-body .box-wrap {
+    overflow: hidden
+}
+
+.modal-wrap .modal-body .box {
+    min-width: 130px;
+    margin-right: 10px;
+    display: inline-block;
+    float: left;
+}
+
+.modal-wrap .modal-body .box.one-box {
+    float: none;
+    text-align: center
+}
+
+.modal-wrap .modal-body .box.one-box .btn-list {
+    margin: 10px auto
+}
+
+.modal-wrap .modal-body .scroll-box {
+    overflow-x: scroll
+}
+
+.modal-wrap .modal-body .box .cate-title {
+    width: 100%;
+    background-color: #ededed;
+    padding: 5px;
+    box-sizing: border-box
+}
+
+.modal-wrap .modal-body .box .btn-list {
+    margin-top: 10px;
+    float: left;
+    margin-right: 10px
+}
+
+.modal-wrap .modal-body .box .btn-list:last-of-type {
+    margin-right: 0
+}
+
+.modal-wrap .modal-body .box .btn-list>a {
+    display: block;
+    margin-bottom: 10px;
+    min-width: 130px;
+    transition: all .1s;
+    box-sizing: border-box;
+    width: 130px;
+    line-height: 17px;
+    word-break: break-all;
+    min-height: 32px;
+    padding: 6px 13px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.modal-wrap .modal-body .box .btn-list>a.on {
+    color: #fff;
+    background-color: #1341ff
+}
+
+.modal-wrap .modal-body .box .btn-list2 {
+    float: none
+}
+
+.list-flex{
+    display: flex;
+    justify-content: center; /* 가로 중앙 정렬 */
+}
+.modal-wrap .modal-body .table-wrap {
+    width: 100%;
+    margin: 30px auto
+}
+
+.modal-wrap .modal-body .scrolldown table tr:first-child {
+    border-top: none
+}
+
+.modal-wrap .modal-body .box.box-city {
+    margin-right: 0
+}
+
+.box-city .btn-list-wrap {
+    text-align: left
+}
+
+.modal-wrap .modal-body .box.box-city .btn-list {
+    margin-right: 0
+}
+
+.modal-wrap .modal-body .box.box-city .btn-list>a {
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center
+}
+
+.modal-wrap .modal-body .top .txt {
+    word-break: keep-all
+}
+
+.modal-wrap .modal-foot {
+    padding: 20px 0;
+    height: 70px;
+    box-sizing: border-box
+}
+
+.modal.img-modal .btn-close,
+.modal.img-modal .modal-wrap {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2)
+}
+
+.Flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 600px; /* 원하는 최대 너비 */
+    margin: 0 auto;
+}
+
+
+
+.btn-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 10px;
+    height: 10px;
+    font-size: 0;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAY0lEQVQYlWXPwQ2DUAwD0Cd2AAE7AKI3kFiRPVAPbQds1Uu+FH1yShzbceDE4l5z7Ox4V6QJHxwFWILUoY1+rS17XHhiLGCTCL+YG3xr9RS2Q5x55UxbBHokQcm0i1fyMpPOP3n2DrwqXD83AAAAAElFTkSuQmCC) no-repeat;
+    background-size: cover
+}
+.btn-close {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    display: inline-block;
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDYuMC1jMDA2IDc5LmRhYmFjYmIsIDIwMjEvMDQvMTQtMDA6Mzk6NDQgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCAyMi40IChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDowNzlBNjQ0MEI2MTkxMUVDQUU0MEY1QkQ0NTlCMjlEQiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDowNzlBNjQ0MUI2MTkxMUVDQUU0MEY1QkQ0NTlCMjlEQiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjA3OUE2NDNFQjYxOTExRUNBRTQwRjVCRDQ1OUIyOURCIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjA3OUE2NDNGQjYxOTExRUNBRTQwRjVCRDQ1OUIyOURCIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+vPcYKAAAAWFJREFUeNrE17tKxEAUBuDJ0VokiIVt9BUUbPYlvF9gG8XS0lew3mrBRpC1iCKKr2BhKYhvIbKVIBb+IzMwDkk8c+ZADvzsLeTbCcmZmaKqKtNHkempQngJeUY+kC1lZx+ZIk/IYgzfIavIPDJBdpTQIXKJzCHrSB3Dy8H7GeRKAbfohTufr5UYPka+FfEm9Ms5f+BbZE8Jb0PtvfPYdFfXCngXet/1OOXgLLTrOZbgbPS/BpKCJ6GczsXBk1Fbs4ybpXavk+B4jw+Qo1SUC3fhJ9FxLDR1kmi67CJUMjtZfNzy24iLSuBhw+X1dZrS4SizDRpph6PMNnguba+UgW4iZ8iuBKcM9MF9vpHglIkaKU4KqAgnJTQZJ0U0CQ/hAwWUg9vzmSLYSUzdEjQXDWsDuY4mo3dkIRzxqzLaNvKX3+GXZem/sKu/NffvDv1qUKHe3KAGbqeyjXwWfW3afgQYANCFhaa9eX2NAAAAAElFTkSuQmCC) no-repeat;
+    background-position: 50%;
+    background-size: 15px;
+    opacity: .7
+}
+
+.btn-type4 {
+    background-color: #fff;
+    border: 1px solid #d8d8d8;
+    padding: 3px 13px;
+    border-radius: 10px;
+    vertical-align: middle;
+    transition: .3s;
+    color: #666;
+    text-align: center
+}
+
+.btn-type4:hover {
+    color: #5077bd;
+    border-color: #5077bd
+}
+
+.btn-type4.btn-add {
+    color: #666 !important
+}
+
+.btn-type4.btn-add:hover {
+    color: #5077bd !important
+}
+
+ 
+.search-type1 {
+    padding: 3px 10px;
+    box-sizing: border-box;
+    border: 1px solid #9e9e9e;
+    border-radius: 10px;
+    height: 28px;
+    font-size: 15px
+}
+
+.search-filter {
+    border-top: 1px solid #eaeaea
+}
+
+.search-filter table td {
+    text-align: left
+}
+
+.search-filter table td label {
+    margin-right: 15px
+}
+
+.search-filter .select-type1 {
+    margin-left: 5px
+}
+
+.search-filter .select-type1:first-of-type {
+    margin-left: 0
+}
+
+.mo-search-filter .filter-text,
+.search-filter .filter-text {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.search-filter .filter-text {
+    max-width: calc(100% - 140px)
+}
+
+.mo-search-filter .filter-text .text,
+.search-filter .filter-text .text {
+    display: inline-block;
+    vertical-align: top
+}
+
+.mo-search-filter .filter-text .text:after,
+.search-filter .filter-text .text:after {
+    content: ",";
+    margin-left: 2px;
+    margin-right: 5px
+}
+
+.search-filter .filter-text .text:after {
+    display: inline-block
+}
+
+.mo-search-filter .filter-text .text:last-of-type:after,
+.search-filter .filter-text .text:last-of-type:after {
+    content: ""
+}
+
+.search-filter .filter-text .title {
+    margin-left: 10px;
+    font-weight: 500
+}
+
+.search-filter .filter-text .title:first-of-type {
+    margin-left: 0
+}
+
+.search-filter.remove-tb {
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 20px
+}
+
+.search-filter.remove-tb p:first-of-type {
+    width: 200px;
+    height: 50px;
+    background: #f8f8f8;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle
+}
